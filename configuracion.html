@@ -1,0 +1,124 @@
+V<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuración</title>
+  <style>
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .header, .footer {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+    }
+
+    .menu li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .menu li a:hover {
+      background-color: #111;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h3 {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    .section p {
+      padding: 10px;
+    }
+
+    .config-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .config-button:hover {
+      background-color: #0056b3;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Configuración</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="perfil-usuario.html">Perfil de Usuario</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h2>Configuraciones de la Página</h2>
+      
+      <div class="section">
+        <h3>Preferencias de Usuario</h3>
+        <button class="config-button">Cambiar Contraseña</button>
+        <button class="config-button">Actualizar Email</button>
+        <button class="config-button">Configuración de Privacidad</button>
+      </div>
+
+      <div class="section">
+        <h3>Opciones de Notificaciones</h3>
+        <button class="config-button">Activar Notificaciones por Email</button>
+        <button class="config-button">Desactivar Notificaciones por Email</button>
+      </div>
+
+      <div class="section">
+        <h3>Personalización</h3>
+        <button class="config-button">Cambiar Tema</button>
+        <button class="config-button">Configuración de Idioma</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Pie de página</p>
+    </div>
+  </div>
+</body>
+</html>
